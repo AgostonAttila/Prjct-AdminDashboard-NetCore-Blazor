@@ -12,11 +12,12 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 
 - SOLID principles
 - ONION architecture
+- DI
 - Repository pattern ,maybe UOW
 - Automapper
 - Swagger
 - Ocelot API
-- Serilog or NLog
+- Serilog or NLog or Elmah
 - Healtchecks
 - Entity fw or Dapper
 - Multicontext DB conn.
@@ -26,7 +27,7 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - Push notification with SignalR
 - REDIS or In-memory caching
 - Background job with Hangfire
-- RabbitMq + Masstransit
+- RabbitMq + Masstransit | Kafka
 - Globalization & Localization
 - REST & GraphQl
 - Kubernetes & Docker
@@ -36,3 +37,6 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - API Versioning
 - MediatR Pipeline Logging & Validation
 - LDAP & ADFS
+- ElasticSearch
+- MongoDB, Postgre , MySql, Mssql,DB2 ,Oracle ...
+- Benchmark.NET
