@@ -12,35 +12,68 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1715959908,
+        "HashCode": -1895869147,
         "Kind": "Components.Component",
-        "Name": "BlazorUI.App",
+        "Name": "BlazorUI.Pages.FetchData",
         "AssemblyName": "BlazorUI",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.App"
+          "Common.TypeName": "BlazorUI.Pages.FetchData"
         }
       },
       {
-        "HashCode": -756589509,
+        "HashCode": -442561888,
         "Kind": "Components.Component",
-        "Name": "BlazorUI.App",
+        "Name": "BlazorUI.Pages.FetchData",
         "AssemblyName": "BlazorUI",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorUI.App"
+            "TagName": "BlazorUI.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.App",
+          "Common.TypeName": "BlazorUI.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -189017983,
+        "Kind": "Components.Component",
+        "Name": "BlazorUI.Pages.Index",
+        "AssemblyName": "BlazorUI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUI.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1813880991,
+        "Kind": "Components.Component",
+        "Name": "BlazorUI.Pages.Index",
+        "AssemblyName": "BlazorUI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorUI.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUI.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -131,72 +164,6 @@
         }
       },
       {
-        "HashCode": -1895869147,
-        "Kind": "Components.Component",
-        "Name": "BlazorUI.Pages.FetchData",
-        "AssemblyName": "BlazorUI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -442561888,
-        "Kind": "Components.Component",
-        "Name": "BlazorUI.Pages.FetchData",
-        "AssemblyName": "BlazorUI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorUI.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -189017983,
-        "Kind": "Components.Component",
-        "Name": "BlazorUI.Pages.Index",
-        "AssemblyName": "BlazorUI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1813880991,
-        "Kind": "Components.Component",
-        "Name": "BlazorUI.Pages.Index",
-        "AssemblyName": "BlazorUI",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorUI.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1770046008,
         "Kind": "Components.Component",
         "Name": "BlazorUI.Shared.LoginDisplay",
@@ -263,55 +230,35 @@
         }
       },
       {
-        "HashCode": 1489240972,
+        "HashCode": 1050686595,
         "Kind": "Components.Component",
-        "Name": "BlazorUI.Shared.SurveyPrompt",
+        "Name": "BlazorUI.Shared.NavMenu",
         "AssemblyName": "BlazorUI",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Shared.SurveyPrompt"
+          "Common.TypeName": "BlazorUI.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -517074383,
+        "HashCode": 1580902316,
         "Kind": "Components.Component",
-        "Name": "BlazorUI.Shared.SurveyPrompt",
+        "Name": "BlazorUI.Shared.NavMenu",
         "AssemblyName": "BlazorUI",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorUI.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "BlazorUI.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Shared.SurveyPrompt",
+          "Common.TypeName": "BlazorUI.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -412,35 +359,88 @@
         }
       },
       {
-        "HashCode": 1050686595,
+        "HashCode": 1489240972,
         "Kind": "Components.Component",
-        "Name": "BlazorUI.Shared.NavMenu",
+        "Name": "BlazorUI.Shared.SurveyPrompt",
         "AssemblyName": "BlazorUI",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Shared.NavMenu"
+          "Common.TypeName": "BlazorUI.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 1580902316,
+        "HashCode": -517074383,
         "Kind": "Components.Component",
-        "Name": "BlazorUI.Shared.NavMenu",
+        "Name": "BlazorUI.Shared.SurveyPrompt",
         "AssemblyName": "BlazorUI",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorUI.Shared.NavMenu"
+            "TagName": "BlazorUI.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorUI.Shared.NavMenu",
+          "Common.TypeName": "BlazorUI.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1715959908,
+        "Kind": "Components.Component",
+        "Name": "BlazorUI.App",
+        "AssemblyName": "BlazorUI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUI.App"
+        }
+      },
+      {
+        "HashCode": -756589509,
+        "Kind": "Components.Component",
+        "Name": "BlazorUI.App",
+        "AssemblyName": "BlazorUI",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorUI.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorUI.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

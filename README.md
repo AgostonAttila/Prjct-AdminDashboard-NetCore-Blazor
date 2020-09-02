@@ -1,6 +1,6 @@
 # Prjct-AdminDashboard-NetCore-Blazor
 
-Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about collecting to a repo
+Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about collecting to a repo (Hobby project)
 
 ### Technologies
 
@@ -13,7 +13,8 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] SOLID principles
 - [ ] ONION architecture
 - [ ] DI
-- [ ] Repository pattern ,maybe UOW
+- [x] Repository pattern
+- [ ] UOW
 - [ ] Automapper
 - [ ] Swagger
 - [ ] Ocelot API
@@ -48,7 +49,7 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] Main dashboard screen
 - [ ] Authorization
 - [ ] Authentication
-- [ ] Interactive Charts
+- [ ] Interactive Charts (Highchart,Google,D3,ChartJs,Morris,...)
 - [ ] Scalable cards
 - [ ] Table (filter,sort,...)
 - [ ] Google map or Leaf
