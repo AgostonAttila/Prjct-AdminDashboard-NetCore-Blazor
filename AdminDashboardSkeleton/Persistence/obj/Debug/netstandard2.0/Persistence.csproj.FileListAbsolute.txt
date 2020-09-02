@@ -2,3 +2,4 @@ D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkelet
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache

@@ -10,9 +10,9 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 
 ### Server features
 
-- [ ] SOLID principles
-- [ ] ONION architecture
-- [ ] DI
+- [x] SOLID principles
+- [x] ONION architecture
+- [x] DI
 - [x] Repository pattern
 - [ ] UOW
 - [ ] Automapper
