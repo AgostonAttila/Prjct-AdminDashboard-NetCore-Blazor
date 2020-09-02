@@ -5,9 +5,8 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 ### Technologies
 
 -ASP.NET Core 3.1 WebApi
--.NET Core 3.1 / Standard 2.1 Libraries
-Features
--Blazor Client
+-.NET Core 3.1 / Standard 2.1 Libraries Features
+-Blazor Client .Net 5.0 preview 8
 
 ### Server features
 
