@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ExbkNTVDW1FyhfM99KrfRk4KYoh60rWppQQzFi5Rl82oW64v75zWgfMy5ZKNOJaUI1f2VTr9/rL6MfISeSAVnA==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atesz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

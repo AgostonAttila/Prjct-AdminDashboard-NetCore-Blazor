@@ -4,9 +4,9 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 
 ### Technologies
 
--ASP.NET Core 3.1 WebApi
--.NET Core 3.1 / Standard 2.1 Libraries Features
--Blazor Client .Net 5.0 preview 8
+- ASP.NET Core 3.1 WebApi
+- .NET Core 3.1 / Standard 2.1 Libraries Features
+- Blazor Client .Net 5.0 preview 8
 
 ### Server features
 
@@ -17,6 +17,7 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] Automapper
 - [ ] Swagger
 - [ ] Ocelot API
+- [ ] Wrappers (Paging)
 - [ ] Serilog or NLog or Elmah
 - [ ] Healtchecks
 - [ ] Entity fw or Dapper
@@ -40,6 +41,7 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] ElasticSearch
 - [ ] MongoDB, Postgre , MySql, Mssql,DB2 ,Oracle ...
 - [ ] Benchmark.NET
+- [ ] OWASP
 
 ### Client features
 
@@ -53,3 +55,5 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] Themes
 - [ ] Chat
 - [ ] Fonts and Styles
+- [ ] PWA
+- [ ] Responsive
