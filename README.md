@@ -2,18 +2,23 @@
 
 Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about collecting to a repo
 
-## Server
+### Technologies
+
+-ASP.NET Core 3.1 WebApi
+-.NET Core 3.1 / Standard 2.1 Libraries
+Features
+-Blazor Client
+
+### Server features
 
 - SOLID principles
-
-(Clean source code in a well-defined solution structure
-Layered & modular architecture
-Domain Driven Design implementation
-Dependency injection everywhere)
-
 - ONION architecture
 - Repository pattern ,maybe UOW
 - Automapper
+- Swagger
+- Ocelot API
+- Serilog or NLog
+- Healtchecks
 - Entity fw or Dapper
 - Multicontext DB conn.
 - Fluent validation
@@ -26,10 +31,6 @@ Dependency injection everywhere)
 - Globalization & Localization
 - REST & GraphQl
 - Kubernetes & Docker
-- Swagger
-- Ocelot API
-- Serilog or NLog
-- Healtchecks
 - Microsoft Identity with JWT Authentication + Refresh Token
   Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail) Two Factor Authentication (Email, SMS, Google Authenticator)
 - SMTP / Mailkit / Sendgrid Email Service
