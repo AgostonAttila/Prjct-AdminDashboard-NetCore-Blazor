@@ -2,6 +2,8 @@
 
 Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about collecting to a repo (Hobby project)
 
+A playful project with a few solutions may not be suitable for a sharp project as a lot of things were built into it that shouldn't have been, but the goal was to try them in one place.
+
 ### Technologies
 
 - ASP.NET Core 3.1 WebApi
@@ -18,12 +20,14 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] UOW maybe
 - [x] Healtchecks
 - [ ] Automapper
-- [ ] Swagger
-- [ ] Ocelot API
-- [ ] Wrappers (Paging)
+- [x] Fluent validation
+- [x] API Versioning
+- [x] Swagger
+- [x] Wrappers (at Response)
+- [x] ErrorHandler
 - [ ] Serilog or NLog or Elmah
+- [ ] Ocelot API
 - [ ] Multicontext DB conn.
-- [ ] Fluent validation
 - [ ] CQRS with MediaR
 - [ ] Chat with SignalR
 - [ ] Push notification with SignalR
@@ -36,7 +40,6 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [ ] Microsoft Identity with JWT Authentication + Refresh Token
       Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail) Two Factor Authentication (Email, SMS, Google Authenticator)
 - [ ] SMTP / Mailkit / Sendgrid Email Service
-- [ ] API Versioning
 - [ ] MediatR Pipeline Logging & Validation
 - [ ] LDAP & ADFS
 - [ ] ElasticSearch

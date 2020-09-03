@@ -13,7 +13,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using WebAPI.Extensions;
 using WebAPI.Models;
+
 
 namespace WebAPI
 {
@@ -31,11 +33,11 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddPersistenceInfrastructure(_config);
+            services.AddSwaggerExtension();
             services.AddControllers();
-            services.AddHealthChecks();  
-            //.AddDbContextCheck<DataContext>();
-             //.AddUrlGroup(new Uri("url"), name: "name")
-            //.AddCheck<CustomHealthCheck>(name: "New Custom Check");
+            services.AddApiVersioningExtension();
+            services.AddHealthChecks();
+            services.AddHealthChecks();  //.AddDbContextCheck<DataContext>().AddUrlGroup(new Uri("url"), name: "name").AddCheck<CustomHealthCheck>(name: "New Custom Check");
 
         }
 
@@ -49,6 +51,9 @@ namespace WebAPI
 
             app.UseHttpsRedirection();
 
+            app.UseSwaggerExtension();
+            app.UseErrorHandlingMiddleware();
+            // app.UseHealthChecks("/health");
             app.UseHealthChecks("/health", new HealthCheckOptions
             {
                 ResponseWriter = async (context, report) =>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9KeFFZksDaz3XOL+/aoOFgBvxMLt/ICoTcKnDDxINFkYPpBpLXfkOvgChN9roJs9thmgcZyg+KaeDzOWf1aJcQ==",
+  "dgSpecHash": "Dmuv4fkFeSka7yzgkc97eeH0wnKJQHTMnCkyiKdTxVDyKUZiLoeiC6V3zuh52WlsGzOkKKvSop9psef4YsLOQQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\atesz\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

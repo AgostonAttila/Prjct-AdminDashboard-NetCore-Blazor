@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G35IWObMfj/x/5pYSGUMxZFvXYBkQw9GuERQAntY96NvLlA1Fysw3trz5gzkWUwDYuRxvWXFGd63e6aJf5wPaQ==",
+  "dgSpecHash": "p1fFmXlFx43vGCsRl8Eh2pC1KzlllTlJlj+35dqg/XcngjngJrFZoE/1OB09LP/RwtiDllkcdKEKoy6ovmec3w==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\atesz\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
