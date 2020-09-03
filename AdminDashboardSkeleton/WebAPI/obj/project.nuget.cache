@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gjngIfCqezN0hHDil7xjhj/oqSdNDGvlivFQE+ltjz95MguQFfhx/M0tGl3eqhjiIBWDSwJo1PUg8UUYBWetOg==",
+  "dgSpecHash": "53/VCY5c/SsD8N+vUaX08dxeUkj0B3gjZuxZKUog5YOzRlYm6PQnE8cnkoceUNzMyULKQjUb05OrOwCf/Drt0Q==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []

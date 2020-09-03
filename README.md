@@ -13,15 +13,15 @@ Skeleton with ASP.NetCore + Blazor (Client WASM) A few useful things about colle
 - [x] SOLID principles
 - [x] ONION architecture
 - [x] DI
-- [x] Repository pattern
-- [ ] UOW
+- [x] Repository pattern (By Entity fw it shouldn't be because it implements the repository pattern and uow)
+- [x] Entity fw (or Dapper)
+- [ ] UOW maybe
+- [x] Healtchecks
 - [ ] Automapper
 - [ ] Swagger
 - [ ] Ocelot API
 - [ ] Wrappers (Paging)
 - [ ] Serilog or NLog or Elmah
-- [ ] Healtchecks
-- [ ] Entity fw or Dapper
 - [ ] Multicontext DB conn.
 - [ ] Fluent validation
 - [ ] CQRS with MediaR
