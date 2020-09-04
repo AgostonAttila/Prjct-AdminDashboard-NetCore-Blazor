@@ -31,7 +31,7 @@ namespace WebAPI
 
 
         public void ConfigureServices(IServiceCollection services)
-        {
+        {            
             services.AddPersistenceInfrastructure(_config);
             services.AddSwaggerExtension();
             services.AddControllers();

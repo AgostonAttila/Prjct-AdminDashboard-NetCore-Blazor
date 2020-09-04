@@ -25,14 +25,14 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] Swagger
 - [x] Wrappers (at Response)
 - [x] ErrorHandler
-- [ ] Serilog or NLog or Elmah
+- [x] Serilog (or NLog or Elmah)
 - [ ] Ocelot API
 - [ ] Multicontext DB conn.
 - [ ] CQRS with MediaR
 - [ ] Chat with SignalR
 - [ ] Push notification with SignalR
 - [ ] REDIS or In-memory caching
-- [ ] Background job with Hangfire
+- [x] Background job with Hangfire
 - [ ] RabbitMq + Masstransit | Kafka
 - [ ] Globalization & Localization
 - [ ] REST & GraphQl

@@ -22,7 +22,7 @@ namespace WebAPI.Extensions
                     Description = "This Api will be responsible for overall data distribution and authorization.",
                     Contact = new OpenApiContact
                     {
-                        Name = "test",
+                        Name = "aa",
                         Email = "xxx",
                         Url = new Uri("https://google.com"),
                     }

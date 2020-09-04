@@ -12,6 +12,9 @@ namespace Persistence
 {
     public static class ServiceRegistration
     {
+
+
+
         public static void AddPersistenceInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             if (configuration.GetValue<bool>("UseInMemoryDatabase"))
@@ -27,7 +30,7 @@ namespace Persistence
                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
             }
             #region Repositories
-            services.AddTransient(typeof(IRepositoryAsync<>), typeof(RepositoryAsync<>));       
+            services.AddTransient(typeof(IRepositoryAsync<>), typeof(RepositoryAsync<>));
             #endregion
         }
     }
