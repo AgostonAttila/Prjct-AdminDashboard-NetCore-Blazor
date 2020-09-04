@@ -53,27 +53,9 @@ namespace WebAPI
 
             app.UseSwaggerExtension();
             app.UseErrorHandlingMiddleware();
+            app.UseHangfireDashboardAndJobs();
             // app.UseHealthChecks("/health");
-            app.UseHealthChecks("/health", new HealthCheckOptions
-            {
-                ResponseWriter = async (context, report) =>
-                {
-                    context.Response.ContentType = "application/json";
-                    var response = new HealthCheckReponse
-                    {
-                        Status = report.Status.ToString(),
-                        HealthChecks = report.Entries.Select(x => new IndividualHealthCheckResponse
-                        {
-                            Component = x.Key,
-                            Status = x.Value.Status.ToString(),
-                            Description = x.Value.Description
-
-                        }),
-                        HealthCheckDuration = report.TotalDuration
-                    };
-                    await context.Response.WriteAsync(JsonConvert.SerializeObject(response));
-                }
-            });
+            app.UseHealthChecks();
 
             app.UseRouting();
 

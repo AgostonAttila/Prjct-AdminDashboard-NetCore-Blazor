@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Hangfire;
+using Hangfire.SQLite;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 namespace WebAPI.Extensions
 {
     public static class ServiceExtensions
-    {
+    {  
         public static void AddSwaggerExtension(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
@@ -66,5 +68,35 @@ namespace WebAPI.Extensions
                 config.ReportApiVersions = true;
             });
         }
+        public static void AddHangFire(this IServiceCollection services)
+        {
+            // Add Hangfire services.
+            services.AddHangfire(configuration => configuration
+                .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+                    .UseSimpleAssemblyNameTypeSerializer()
+                    .UseRecommendedSerializerSettings()
+                    .UseSQLiteStorage(Startup.Configuration["Data:SqlLiteConnectionStringHangfire"], new SQLiteStorageOptions
+                    {
+
+                    }));
+            //.UseSqlServerStorage(Startup.Configuration["Data:HangfireConnection"], new SqlServerStorageOptions
+            //{
+            //    CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+            //    SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+            //    QueuePollInterval = TimeSpan.Zero,
+            //    UseRecommendedIsolationLevel = true,
+            //    UsePageLocksOnDequeue = true,
+            //    DisableGlobalLocks = true
+            //}));
+
+            // Add the processing server as IHostedService
+            services.AddHangfireServer();
+
+        }
+
+
+
+
+
     }
 }
