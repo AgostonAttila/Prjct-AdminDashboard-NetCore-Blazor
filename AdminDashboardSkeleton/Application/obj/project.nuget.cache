@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5fLdJu1XqY0D1uDO+0r9AqFLarmghPxPi5q/udj+Sfkzef1xgKH2dGhMYxCC+x5IFeh+wmoTl1WyGEfU1XEoSw==",
+  "dgSpecHash": "MisUTFcgA8NaYw2AYcZ4JFwh52Z0bQ+Pzs4mBiuLa4r2ApkoHimGT0422pV/AV3cq94kECZ1lkZ5kSmIc3+k/g==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atesz\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",

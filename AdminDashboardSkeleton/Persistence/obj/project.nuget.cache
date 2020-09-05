@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fVxiRWF3TCXPaQx979HxkZqtN389TYevg3kitVePYfomFQqF02DFcI/pGFd9oeddeiirT8XeaZD9+6vPpAsPGw==",
+  "dgSpecHash": "aQp3MOTT5f8sKX1geK4lcGy0EKbzeAvGJFJ6Sds+dbQv0IfbTV7ULJ3a+gtV/xpEPEYtZx9Ip4eHOp8qfETL6w==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atesz\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

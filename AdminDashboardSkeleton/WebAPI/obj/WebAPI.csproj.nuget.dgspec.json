@@ -53,9 +53,17 @@
               "target": "Package",
               "version": "[10.0.0, )"
             },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -208,6 +216,10 @@
             "Hangfire.SqlServer": {
               "target": "Package",
               "version": "[1.7.12, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",

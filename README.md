@@ -17,25 +17,26 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] DI
 - [x] Repository pattern (By Entity fw it shouldn't be because it implements the repository pattern and uow)
 - [x] Entity fw (or Dapper)
+- [x] CQRS with MediatR
+- [ ] Multicontext DB conn.
 - [ ] UOW maybe
 - [x] Healtchecks
 - [x] Automapper
 - [x] Fluent validation
 - [x] API Versioning
+- [ ] REST
+- [ ] GraphQl
 - [x] Swagger
 - [x] Wrappers (at Response)
-- [x] ErrorHandler
+- [x] Custom exception handling
 - [x] Serilog (or NLog or Elmah)
 - [ ] Ocelot API
-- [ ] Multicontext DB conn.
-- [ ] CQRS with MediaR
 - [ ] Chat with SignalR
 - [ ] Push notification with SignalR
 - [ ] REDIS or In-memory caching
 - [x] Background job with Hangfire
 - [ ] RabbitMq + Masstransit | Kafka
 - [ ] Globalization & Localization
-- [ ] REST & GraphQl
 - [ ] Kubernetes & Docker
 - [ ] Microsoft Identity with JWT Authentication + Refresh Token
       Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail) Two Factor Authentication (Email, SMS, Google Authenticator)
