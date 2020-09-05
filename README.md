@@ -24,7 +24,7 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] Automapper
 - [x] Fluent validation
 - [x] API Versioning
-- [ ] REST
+- [x] REST
 - [ ] GraphQl
 - [x] Swagger
 - [x] Wrappers (at Response)
