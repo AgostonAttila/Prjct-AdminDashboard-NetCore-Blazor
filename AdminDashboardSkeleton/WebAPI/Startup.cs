@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using WebAPI.Extensions;
 using WebAPI.Models;
+
 
 
 namespace WebAPI
@@ -31,8 +33,9 @@ namespace WebAPI
 
 
         public void ConfigureServices(IServiceCollection services)
-        {            
-            services.AddPersistenceInfrastructure(_config);
+        {
+            services.AddApplicationLayer();
+            services.AddPersistenceInfrastructure(_config);      
             services.AddSwaggerExtension();
             services.AddControllers();
             services.AddApiVersioningExtension();
@@ -48,15 +51,11 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseHttpsRedirection();
-
             app.UseSwaggerExtension();
             app.UseErrorHandlingMiddleware();
-            app.UseHangfireDashboardAndJobs();
-            // app.UseHealthChecks("/health");
+            app.UseHangfireDashboardAndJobs();         
             app.UseHealthChecks();
-
             app.UseRouting();
 
             app.UseAuthorization();

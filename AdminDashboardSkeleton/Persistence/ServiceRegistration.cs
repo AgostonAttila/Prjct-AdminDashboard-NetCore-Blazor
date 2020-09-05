@@ -33,5 +33,11 @@ namespace Persistence
             services.AddTransient(typeof(IRepositoryAsync<>), typeof(RepositoryAsync<>));
             #endregion
         }
+
+        public static void TEST(this IServiceCollection services)
+        {
+          
+        }
+
     }
 }

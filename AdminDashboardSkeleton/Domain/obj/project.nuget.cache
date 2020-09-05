@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "w9+fZxPblNNMhlPDzdOc2QQizihoXywCt3W/BR2x9d/y0yFynH6t1T8FGqecgTYQTzLdhCnhKuzlh5umdGIyJg==",
+  "dgSpecHash": "VWfg+dRrzPXlnVi7HTbhW2637tijeHLTNo7nEOei1zCEvZNpdvTKl+uGRsyOLa8NPeHq7lJPPU+R8uja1ktMdA==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atesz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\atesz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\atesz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

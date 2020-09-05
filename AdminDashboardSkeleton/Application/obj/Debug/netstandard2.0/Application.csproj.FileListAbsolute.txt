@@ -7,3 +7,4 @@ D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkelet
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Application\obj\Debug\netstandard2.0\Application.dll
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Application\obj\Debug\netstandard2.0\Application.pdb
+D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Application\bin\Debug\netstandard2.0\Domain.dll

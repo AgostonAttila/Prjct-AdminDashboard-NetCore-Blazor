@@ -19,7 +19,7 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] Entity fw (or Dapper)
 - [ ] UOW maybe
 - [x] Healtchecks
-- [ ] Automapper
+- [x] Automapper
 - [x] Fluent validation
 - [x] API Versioning
 - [x] Swagger
