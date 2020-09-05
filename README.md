@@ -18,6 +18,7 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] Repository pattern (By Entity fw it shouldn't be because it implements the repository pattern and uow)
 - [x] Entity fw (or Dapper)
 - [x] CQRS with MediatR
+- [x] MediatR Pipeline Logging & Validation
 - [ ] Multicontext DB conn.
 - [ ] UOW maybe
 - [x] Healtchecks
@@ -41,7 +42,6 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [ ] Microsoft Identity with JWT Authentication + Refresh Token
       Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail) Two Factor Authentication (Email, SMS, Google Authenticator)
 - [ ] SMTP / Mailkit / Sendgrid Email Service
-- [ ] MediatR Pipeline Logging & Validation
 - [ ] LDAP & ADFS
 - [ ] ElasticSearch
 - [ ] MongoDB, Postgre , MySql, Mssql,DB2 ,Oracle ...
@@ -62,3 +62,12 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [ ] Fonts and Styles
 - [ ] PWA
 - [ ] Responsive
+
+### Functionality:
+
+- [ ] data from different DBs
+- [ ] charts
+- [ ] email sending
+- [ ] chats
+- [ ] machine larining examples
+- [ ] fancy tables
