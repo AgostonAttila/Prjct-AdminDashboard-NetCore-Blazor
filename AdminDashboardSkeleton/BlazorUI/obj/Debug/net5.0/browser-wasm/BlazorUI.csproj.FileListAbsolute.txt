@@ -1,4 +1,3 @@
-D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\BlazorUI.csprojAssemblyReference.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\BlazorUI.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\BlazorUI.AssemblyInfoInputs.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\BlazorUI.AssemblyInfo.cs
@@ -629,3 +628,4 @@ D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkelet
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\BlazorUI.pdb
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\serviceworkers\wwwroot\service-worker.js
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\service-worker-assets.js
+D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\BlazorUI.csprojAssemblyReference.cache

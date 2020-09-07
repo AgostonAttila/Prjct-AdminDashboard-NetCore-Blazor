@@ -1,7 +1,6 @@
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\bin\Debug\netstandard2.0\Identity.deps.json
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\bin\Debug\netstandard2.0\Identity.dll
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\bin\Debug\netstandard2.0\Identity.pdb
-D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\obj\Debug\netstandard2.0\Identity.csprojAssemblyReference.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\obj\Debug\netstandard2.0\Identity.AssemblyInfoInputs.cache
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\obj\Debug\netstandard2.0\Identity.AssemblyInfo.cs
 D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\Identity\obj\Debug\netstandard2.0\Identity.csproj.CoreCompileInputs.cache

@@ -70,27 +70,27 @@ namespace WebAPI.Extensions
         }
         public static void AddHangFire(this IServiceCollection services)
         {
-            // Add Hangfire services.
-            services.AddHangfire(configuration => configuration
-                .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
-                    .UseSimpleAssemblyNameTypeSerializer()
-                    .UseRecommendedSerializerSettings()
-                    .UseSQLiteStorage(Startup.Configuration["Data:SqlLiteConnectionStringHangfire"], new SQLiteStorageOptions
-                    {
+            //// Add Hangfire services.
+            //services.AddHangfire(configuration => configuration
+            //    .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+            //        .UseSimpleAssemblyNameTypeSerializer()
+            //        .UseRecommendedSerializerSettings()
+            //        .UseSQLiteStorage(Startup.Configuration["Data:SqlLiteConnectionStringHangfire"], new SQLiteStorageOptions
+            //        {
 
-                    }));
-            //.UseSqlServerStorage(Startup.Configuration["Data:HangfireConnection"], new SqlServerStorageOptions
-            //{
-            //    CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
-            //    SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
-            //    QueuePollInterval = TimeSpan.Zero,
-            //    UseRecommendedIsolationLevel = true,
-            //    UsePageLocksOnDequeue = true,
-            //    DisableGlobalLocks = true
-            //}));
+            //        }));
+            ////.UseSqlServerStorage(Startup.Configuration["Data:HangfireConnection"], new SqlServerStorageOptions
+            ////{
+            ////    CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+            ////    SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+            ////    QueuePollInterval = TimeSpan.Zero,
+            ////    UseRecommendedIsolationLevel = true,
+            ////    UsePageLocksOnDequeue = true,
+            ////    DisableGlobalLocks = true
+            ////}));
 
-            // Add the processing server as IHostedService
-            services.AddHangfireServer();
+            //// Add the processing server as IHostedService
+            //services.AddHangfireServer();
 
         }
 

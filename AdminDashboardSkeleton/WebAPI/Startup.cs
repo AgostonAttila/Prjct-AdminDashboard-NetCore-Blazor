@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Application;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -34,8 +36,9 @@ namespace WebAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplicationLayer();
-            services.AddPersistenceInfrastructure(_config);      
+            services.AddApplicationLayer();          
+            //services.AddPersistenceInfrastructure(_config);
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddSwaggerExtension();
             services.AddControllers();
             services.AddApiVersioningExtension();

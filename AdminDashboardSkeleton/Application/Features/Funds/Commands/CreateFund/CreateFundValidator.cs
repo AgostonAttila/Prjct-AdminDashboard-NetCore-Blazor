@@ -11,9 +11,9 @@ namespace Application.Features.Funds.Commands.CreateFund
     {
         private readonly IFundRepositoryAsync fundRepository;
 
-        public CreateFundCommandValidator(IFundRepositoryAsync fundRepository)
+        public void CreateFundCommandValidator(IFundRepositoryAsync fundRepository)
         {
-            this.fundRepository = fundRepository;
+            //this.fundRepository = fundRepository;
 
             RuleFor(p => p.ISINNumber)
                 .NotEmpty().WithMessage("{PropertyName} is required.")
