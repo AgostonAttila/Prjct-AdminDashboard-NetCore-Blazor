@@ -31,17 +31,19 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] Wrappers (at Response)
 - [x] Custom exception handling
 - [x] Serilog (or NLog or Elmah)
+- [x] Microsoft Identity with JWT Authentication
+- [x] Refresh Token
+- [x] Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail)
+- [ ] Two Factor Authentication (Email, SMS, Google Authenticator)
+- [x] Background job with Hangfire
+- [ ] SMTP / Mailkit / Sendgrid Email Service
 - [ ] Ocelot API
 - [ ] Chat with SignalR
 - [ ] Push notification with SignalR
 - [ ] REDIS or In-memory caching
-- [x] Background job with Hangfire
 - [ ] RabbitMq + Masstransit | Kafka
 - [ ] Globalization & Localization
 - [ ] Kubernetes & Docker
-- [ ] Microsoft Identity with JWT Authentication + Refresh Token
-      Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail) Two Factor Authentication (Email, SMS, Google Authenticator)
-- [ ] SMTP / Mailkit / Sendgrid Email Service
 - [ ] LDAP & ADFS
 - [ ] ElasticSearch
 - [ ] MongoDB, Postgre , MySql, Mssql,DB2 ,Oracle ...

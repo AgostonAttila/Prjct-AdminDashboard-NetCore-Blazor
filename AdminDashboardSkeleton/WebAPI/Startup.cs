@@ -36,7 +36,8 @@ namespace WebAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplicationLayer();          
+            services.AddApplicationLayer();
+            //services.AddIdentityInfrastructure(_config);
             //services.AddPersistenceInfrastructure(_config);
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddSwaggerExtension();
@@ -54,7 +55,15 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
+
             app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseSwaggerExtension();
             app.UseErrorHandlingMiddleware();
             app.UseHangfireDashboardAndJobs();         
