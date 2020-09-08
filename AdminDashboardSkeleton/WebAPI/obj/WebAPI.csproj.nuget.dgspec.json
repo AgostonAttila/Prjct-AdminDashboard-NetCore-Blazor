@@ -156,6 +156,209 @@
         }
       }
     },
+    "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj",
+        "projectName": "IdentityCore",
+        "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj",
+        "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atesz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "microsoft.extensions.dependencyinjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.8.20417.9\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj",
+        "projectName": "SharedCore",
+        "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj",
+        "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atesz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.8.20417.9\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -187,6 +390,12 @@
             "projectReferences": {
               "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj"
+              },
+              "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj"
+              },
+              "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj"
               }
             }
           }
