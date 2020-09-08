@@ -37,9 +37,10 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationLayer();
-            //services.AddIdentityInfrastructure(_config);
-            //services.AddPersistenceInfrastructure(_config);
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddIdentityInfrastructure(_config);
+            services.AddPersistenceInfrastructure(_config);
+            //services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddSharedInfrastructure(_config);
             services.AddSwaggerExtension();
             services.AddControllers();
             services.AddApiVersioningExtension();
