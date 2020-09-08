@@ -36,7 +36,7 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] Complete User Management Module (Register / Generate Token / Forgot Password / Confirmation Mail)
 - [ ] Two Factor Authentication (Email, SMS, Google Authenticator)
 - [x] Background job with Hangfire
-- [ ] SMTP / Mailkit / Sendgrid Email Service
+- [x] SMTP / Mailkit / Sendgrid Email Service
 - [ ] Ocelot API
 - [ ] Chat with SignalR
 - [ ] Push notification with SignalR
