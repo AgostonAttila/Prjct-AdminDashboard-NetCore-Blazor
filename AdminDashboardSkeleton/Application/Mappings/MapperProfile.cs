@@ -1,4 +1,6 @@
 ﻿using Application.DTOs;
+using Application.Features.Funds.Commands.CreateFund;
+using Application.Features.Funds.Queries.GetAllFunds;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -11,11 +13,9 @@ namespace Application.Mappings
     {
         public MapperProfile()
         {
-            CreateMap<Fund, FundViewModel>()
-                .ReverseMap();
-
-            CreateMap<Management, ManagementViewModel>()
-                .ReverseMap();
+            CreateMap<Fund, GetAllFundsViewModel>().ReverseMap();
+            CreateMap<CreateFundCommand, Fund>();
+            CreateMap<GetAllFundsQuery, GetAllFundsParameter>();
         }
     }
 }

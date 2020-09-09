@@ -31,6 +31,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\IdentityCore\IdentityCore.csproj" />
+    <ProjectReference Include="..\PersistenceCore\PersistenceCore.csproj" />
     <ProjectReference Include="..\SharedCore\SharedCore.csproj" />
   </ItemGroup>
 

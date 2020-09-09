@@ -2955,6 +2955,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "PersistenceCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.7",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
+        },
+        "compile": {
+          "bin/placeholder/PersistenceCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersistenceCore.dll": {}
+        }
+      },
       "SharedCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -9382,6 +9398,11 @@
       "path": "../IdentityCore/IdentityCore.csproj",
       "msbuildProject": "../IdentityCore/IdentityCore.csproj"
     },
+    "PersistenceCore/1.0.0": {
+      "type": "project",
+      "path": "../PersistenceCore/PersistenceCore.csproj",
+      "msbuildProject": "../PersistenceCore/PersistenceCore.csproj"
+    },
     "SharedCore/1.0.0": {
       "type": "project",
       "path": "../SharedCore/SharedCore.csproj",
@@ -9400,6 +9421,7 @@
       "Microsoft.AspNetCore.Mvc.Versioning >= 4.1.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Newtonsoft.Json >= 12.0.3",
+      "PersistenceCore >= 1.0.0",
       "Serilog.AspNetCore >= 3.4.0",
       "Serilog.Enrichers.Environment >= 2.1.3",
       "Serilog.Enrichers.Process >= 2.0.1",
@@ -9442,13 +9464,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj": {
               "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\Application\\Application.csproj"
             },
             "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj": {
               "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\IdentityCore\\IdentityCore.csproj"
+            },
+            "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\PersistenceCore\\PersistenceCore.csproj": {
+              "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\PersistenceCore\\PersistenceCore.csproj"
             },
             "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj": {
               "projectPath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\SharedCore\\SharedCore.csproj"
@@ -9464,7 +9488,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Hangfire.AspNetCore": {
             "target": "Package",
@@ -9537,12 +9560,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9551,7 +9568,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.8.20417.9\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

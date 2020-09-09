@@ -1,5 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\bin\Debug\net5.0\browser-wasm\wwwroot\" />
-  <ContentRoot BasePath="/" Path="D:\Programming\Projects\Prjct-AdminDashboard-NetCore-Blazor\AdminDashboardSkeleton\BlazorUI\obj\Debug\net5.0\browser-wasm\scopedcss\" />
-  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\atesz\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\5.0.0-preview.8.20414.8\build\..\staticwebassets\" />
-</StaticWebAssets>

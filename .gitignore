@@ -33,6 +33,8 @@ yarn-error.log
 /modules/rollup-test/dist/
 
 
+
+appsettings.Development.json
 #Net
 
 
@@ -260,3 +262,5 @@ __pycache__/
 
 # Windows thumbnail cache files
 Thumbs.db
+AdminDashboardSkeleton/WebAPI/appsettings.Development.json
+AdminDashboardSkeleton/WebAPI/appsettings.Development.json

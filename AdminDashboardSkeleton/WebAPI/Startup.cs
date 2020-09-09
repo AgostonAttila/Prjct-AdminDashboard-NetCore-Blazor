@@ -5,9 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SharedCore;
 using IdentityCore;
+using PersistenceCore;
 using WebAPI.Extensions;
 using Application;
-using Application.Interfaces;
 
 namespace WebAPI
 {
