@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mEC/Xg61bWrcWhgNUwBMg+Yt44WwfakKjd6ofL0R64D2DkT/tb6q8LEakpMK4Pq+qRgMbFv2bhF+VpXHbo2FFQ==",
+  "dgSpecHash": "zNqwHWdmvO3dAT2b+9nYNFBEsbOrIDmIORs4zDnkLgMC6KPA9MTpGw748Xs26TR8pj7t4AVxGOx9tVQyiHS3Pg==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\Prjct-AdminDashboard-NetCore-Blazor\\AdminDashboardSkeleton\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -189,7 +189,8 @@
     "C:\\Users\\atesz\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\atesz\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\atesz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,7 +8,7 @@ A playful project with a few solutions may not be suitable for a sharp project a
 
 - ASP.NET Core 3.1 WebApi
 - .NET Core 3.1 / Standard 2.1 Libraries Features
-- Blazor Client .Net 5.0 preview 8
+- Blazor Client .Net 5.0 RC1
 
 ### Server features
 
@@ -28,7 +28,7 @@ A playful project with a few solutions may not be suitable for a sharp project a
 - [x] REST
 - [ ] GraphQl
 - [x] Swagger
-- [x] Wrappers (at Response)
+- [x] Wrappers (Pagination,...)
 - [x] Custom exception handling
 - [x] Serilog (or NLog or Elmah)
 - [x] Microsoft Identity with JWT Authentication
